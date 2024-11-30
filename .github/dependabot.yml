@@ -4,5 +4,16 @@ updates:
   directory: "/"
   schedule:
     interval: "daily"
-  assignees:
-      - "matt-edmondson"
+  groups:
+    ktsu:
+      patterns:
+        - "ktsu.*"
+    Microsoft:
+      patterns:
+        - "Microsoft.*"
+    System:
+      patterns:
+        - "System.*"
+    Silk:
+      patterns:
+        - "Silk.NET.*"
