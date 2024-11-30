@@ -1,16 +1,19 @@
-name: Build and Analyze
+name: .NET Library Pipeline
 
 on:
   push:
-    branches: [ "main" ]
   pull_request:
-    types: [opened, synchronize, reopened]
-    
+  schedule:
+    - cron: "43 14 * * *"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
 permissions:
   packages: write
   contents: write
   
 jobs:
-  build-dotnet-library:
-    uses: ktsu-io/workflows/.github/workflows/build-dotnet-library.yml@main
+  dotnet-library:
+    uses: ktsu-dev/workflows/.github/workflows/dotnet-library.yml@main
     secrets: inherit
