@@ -1,6 +1,6 @@
 // Ignore Spelling: Geopotential
 
-namespace ktsu.Physics.Earth.Tests;
+namespace ktsu.Physics.Earth.Test;
 
 using ktsu.PhysicalQuantity.Acceleration;
 using ktsu.PhysicalQuantity.Density;
