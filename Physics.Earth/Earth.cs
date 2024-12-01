@@ -1,13 +1,13 @@
 // Ignore Spelling: geopotential
 
-namespace ktsu.io.Physics.Earth;
+namespace ktsu.Physics.Earth;
 
-using ktsu.io.PhysicalQuantity.Acceleration;
-using ktsu.io.PhysicalQuantity.Density;
-using ktsu.io.PhysicalQuantity.Length;
-using ktsu.io.PhysicalQuantity.Mass;
-using ktsu.io.PhysicalQuantity.Volume;
-using ktsu.io.SignificantNumber;
+using ktsu.PhysicalQuantity.Acceleration;
+using ktsu.PhysicalQuantity.Density;
+using ktsu.PhysicalQuantity.Length;
+using ktsu.PhysicalQuantity.Mass;
+using ktsu.PhysicalQuantity.Volume;
+using ktsu.SignificantNumber;
 
 public static class Earth
 {

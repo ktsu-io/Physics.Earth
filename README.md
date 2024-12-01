@@ -1,6 +1,6 @@
-# ktsu.io.Physics.Earth
+# ktsu.Physics.Earth
 
-The `ktsu.io.Physics.Earth` library provides a set of classes and methods to work with Earth's physical properties and calculations, including gravity, radius, mass, and volume. It also offers methods for computing gravity at different altitudes and related geophysical quantities.
+The `ktsu.Physics.Earth` library provides a set of classes and methods to work with Earth's physical properties and calculations, including gravity, radius, mass, and volume. It also offers methods for computing gravity at different altitudes and related geophysical quantities.
 
 ## Features
 
@@ -15,10 +15,10 @@ The `ktsu.io.Physics.Earth` library provides a set of classes and methods to wor
 
 ## Installation
 
-To install the `ktsu.io.Physics.Earth` library, use the following command:
+To install the `ktsu.Physics.Earth` library, use the following command:
 
 ```sh
-dotnet add package ktsu.io.Physics.Earth
+dotnet add package ktsu.Physics.Earth
 ```
 
 ## Usage
@@ -26,8 +26,8 @@ dotnet add package ktsu.io.Physics.Earth
 ### Basic Properties
 
 ```csharp
-using ktsu.io.Physics.Earth;
-using ktsu.io.PhysicalQuantity.Length;
+using ktsu.Physics.Earth;
+using ktsu.PhysicalQuantity.Length;
 
 var gravityAtSeaLevel = Earth.GravityAtSeaLevel;
 var earthRadius = Earth.Radius;
